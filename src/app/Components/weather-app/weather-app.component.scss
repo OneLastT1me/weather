@@ -1,0 +1,50 @@
+body{
+    margin-top: 0;
+    padding-top: 0;
+    padding: 0;
+    margin: 0;
+    background-image: url();
+    background-attachment: fixed;
+    animation: llssa 1s forwards;
+
+
+@keyframes llssa{
+    
+    0%, 99% {
+        height: 0px;
+        
+      }
+      100% {
+        transition-timing-function: ease-in-out;
+        height: 100%;
+      }
+}
+    
+
+.mainWeather {
+    padding-top: 190px;
+    width: 300px;
+    height: 240px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 135px;
+    .weatherWidgetRow{
+        text-align: center;
+        font-size: 47px;
+        margin-top: 10px;
+        
+    }
+}
+}
+
+@media (max-width:600px){
+    .mainWeather{
+        padding-bottom: 305px;
+    }
+    .weatherWidgetRow{
+        text-align: center;
+        font-size: 167px;
+        margin-top: 10px;
+        
+    }
+}

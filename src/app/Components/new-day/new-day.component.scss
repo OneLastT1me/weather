@@ -1,0 +1,76 @@
+.Temp_hour{
+    display: flex;
+}
+.weatherHour{
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(99, 95, 95);
+    border-radius: 6px;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: 1px 1px 2px black;
+    
+}
+
+.weatherDayOne{
+    margin-top: 400px;
+    
+}
+.Temp_hour{
+   
+    margin-top: 125px;
+    justify-content: center;
+    .weatherHourBlock{
+        font-family: Serif;
+        font-size: 19px;
+        border-radius: 1 solid 2px;
+        
+    }
+}
+h2{
+    color: #ffffff;
+    text-shadow:1px 1px 2px black ;
+}
+.weatherDayOneBlock_hr{
+    color: #ffffff;
+    text-shadow:1px 1px 2px black ;
+    font-size: 32px;
+}
+@media (max-width:600px) {
+    .Temp_hour{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 0;
+    }
+    .h2-hourly{
+        margin-top: 20px;
+    }
+}
+
+.Temp_day{
+    justify-content: center;
+    margin-top: 250px;
+    .weatherDayOne, .weatherDayTwo, .weatherDayOnthree{
+        margin-right: auto;
+        margin-left: auto;
+        padding-top: 150px;
+        width: 400px;
+        height: 300px;
+        margin-top: 150px;
+        border: 1px solid rgb(99, 95, 95);
+        border-radius: 6px;
+        text-align: center;
+        color: #ffffff;
+        text-shadow:1px 1px 2px black ;
+            .weatherDayOneBlock{
+                text-align: center;
+                font-size: 32px;
+                margin-top: 10px;
+                
+            }
+    }
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class>
+    <div class="main">
+        <div class="mainWeather">
+            <div class="weatherWidgetRow Text">{{WeatherDate.temp_NameCity}}, {{WeatherDate.temp_country}}</div>
+            <div class="weatherWidgetRow">{{WeatherDate.temp_celcius}}°C</div>
+            <div class="weatherWidgetRow"><img src="{{WeatherDate.temp_icon}}" alt=""></div>
+            <div class="weatherWidgetRow">{{WeatherDate.temp_textname}}</div>
+        </div>
+        
+        <app-new-day></app-new-day>
+    </div>
+</body>
+</html>
+    
+
